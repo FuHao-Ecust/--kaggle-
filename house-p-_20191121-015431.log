@@ -1,0 +1,748 @@
+2019-11-21 09:54:33 - task - INFO - Model name: 
+ DecisionTreeRegressor
+2019-11-21 09:54:33 - task - INFO - Model score: 
+ 0.7138746926446438
+2019-11-21 09:54:33 - task - INFO - Model path: 
+ ../result\DecisionTreeRegressor-0.713874692645.pkl
+2019-11-21 09:54:37 - task - INFO - Feature Importance Score: 
+                         Importance
+Feature                           
+LandSlope_Mod         0.000000e+00
+Neighborhood_Blmngtn  0.000000e+00
+LotShape_IR3          0.000000e+00
+MSZoning_RH           0.000000e+00
+Neighborhood_Blueste  0.000000e+00
+KitchenQual_Fa        0.000000e+00
+Condition1_RRNe       0.000000e+00
+Neighborhood_Somerst  0.000000e+00
+Condition1_RRAe       0.000000e+00
+Neighborhood_NoRidge  0.000000e+00
+GarageType_2Types     0.000000e+00
+Neighborhood_MeadowV  0.000000e+00
+MasVnrType_missing    0.000000e+00
+Neighborhood_NPkVill  0.000000e+00
+CentralAir_Y          0.000000e+00
+Condition1_RRNn       1.724310e-08
+LandSlope_Gtl         2.586465e-08
+Neighborhood_IDOTRR   6.138544e-08
+Neighborhood_StoneBr  1.551879e-07
+LandSlope_Sev         2.720640e-07
+Neighborhood_BrDale   2.816373e-07
+Neighborhood_NridgHt  5.149296e-07
+Condition1_PosN       8.449120e-07
+GarageType_missing    2.702408e-06
+LotShape_IR2          3.733698e-06
+Neighborhood_Gilbert  1.201254e-05
+Condition1_Artery     1.669914e-05
+Neighborhood_Veenker  2.289966e-05
+Neighborhood_SawyerW  2.343728e-05
+Neighborhood_NWAmes   2.622831e-05
+...                            ...
+LotShape_IR1          7.076039e-04
+GarageType_Detchd     7.662263e-04
+BsmtExposure_Av       7.811081e-04
+BsmtExposure_No       8.714293e-04
+KitchenQual_Ex        1.071533e-03
+MSZoning_C (all)      1.112511e-03
+MasVnrType_Stone      1.225537e-03
+TotRmsAbvGrd          1.289232e-03
+BsmtExposure_Mn       1.407680e-03
+LotShape_Reg          1.455628e-03
+BsmtExposure_Gd       1.504551e-03
+Neighborhood_Timber   1.506394e-03
+MasVnrType_BrkFace    1.786104e-03
+GarageType_Attchd     2.021564e-03
+BsmtQual_TA           2.380612e-03
+MSZoning_RM           2.744587e-03
+BsmtQual_Gd           5.304600e-03
+KitchenQual_Gd        5.424802e-03
+YearRemodAdd          6.253094e-03
+CentralAir_N          6.360721e-03
+1stFlrSF              1.086976e-02
+LotArea               1.135924e-02
+LotFrontage           1.199393e-02
+GarageArea            1.516955e-02
+YearBuilt             2.071697e-02
+2ndFlrSF              2.183913e-02
+TotalBsmtSF           4.167533e-02
+BsmtFinSF1            4.883536e-02
+GrLivArea             1.213706e-01
+OverallQual           6.443949e-01
+
+[87 rows x 1 columns] 
+
+
+2019-11-21 09:54:37 - task - INFO - Model name: 
+ RandomForestRegressor
+2019-11-21 09:54:37 - task - INFO - Model score: 
+ 0.8554771032906856
+2019-11-21 09:54:37 - task - INFO - Model path: 
+ ../result\RandomForestRegressor-0.855477103291.pkl
+2019-11-21 09:54:40 - task - INFO - Feature Importance Score: 
+                       Importance
+Feature                         
+GarageType_2Types       0.000000
+Condition1_RRNn         0.000000
+Neighborhood_Blueste    0.000000
+Neighborhood_BrDale     0.000002
+LotShape_IR3            0.000002
+Condition1_RRNe         0.000002
+MasVnrType_missing      0.000011
+Neighborhood_NPkVill    0.000017
+Neighborhood_MeadowV    0.000017
+Condition1_PosA         0.000024
+Neighborhood_Veenker    0.000025
+MSZoning_RH             0.000026
+Neighborhood_Blmngtn    0.000034
+Neighborhood_Mitchel    0.000035
+GarageType_CarPort      0.000037
+Neighborhood_SWISU      0.000049
+LandSlope_Sev           0.000049
+Condition1_RRAe         0.000052
+Neighborhood_IDOTRR     0.000053
+GarageType_missing      0.000063
+Condition1_RRAn         0.000065
+Neighborhood_OldTown    0.000066
+Neighborhood_SawyerW    0.000088
+MSZoning_FV             0.000104
+LotShape_IR2            0.000122
+Condition1_Artery       0.000122
+GarageType_BuiltIn      0.000123
+GarageType_Basment      0.000134
+KitchenQual_Fa          0.000139
+BsmtExposure_Av         0.000160
+...                          ...
+CentralAir_Y            0.001006
+Neighborhood_CollgCr    0.001063
+LandSlope_Gtl           0.001276
+BsmtExposure_Gd         0.001451
+MSZoning_RM             0.001452
+Neighborhood_Crawfor    0.001527
+KitchenQual_Ex          0.001623
+CentralAir_N            0.001720
+Condition1_Norm         0.002272
+Neighborhood_NridgHt    0.002504
+GarageType_Detchd       0.002618
+GarageType_Attchd       0.002917
+KitchenQual_Gd          0.003244
+BsmtQual_Gd             0.003591
+LotShape_Reg            0.003606
+BsmtQual_Ex             0.006729
+LotFrontage             0.008932
+Fireplaces              0.010448
+YearRemodAdd            0.010917
+GarageArea              0.013761
+YearBuilt               0.016374
+LotArea                 0.017525
+TotRmsAbvGrd            0.019249
+GarageCars              0.019451
+2ndFlrSF                0.021414
+BsmtFinSF1              0.030972
+1stFlrSF                0.037542
+TotalBsmtSF             0.053872
+GrLivArea               0.113721
+OverallQual             0.574018
+
+[87 rows x 1 columns] 
+
+
+2019-11-21 09:54:41 - task - INFO - Model name: 
+ AdaBoostRegressor
+2019-11-21 09:54:41 - task - INFO - Model score: 
+ 0.8371055211521949
+2019-11-21 09:54:41 - task - INFO - Model path: 
+ ../result\AdaBoostRegressor-0.837105521152.pkl
+2019-11-21 09:54:44 - task - INFO - Feature Importance Score: 
+                       Importance
+Feature                         
+Neighborhood_Somerst    0.000000
+KitchenQual_Fa          0.000000
+LotShape_Reg            0.000000
+LotShape_IR3            0.000000
+BsmtQual_Fa             0.000000
+Neighborhood_IDOTRR     0.000000
+LandSlope_Sev           0.000000
+Neighborhood_Mitchel    0.000000
+MSZoning_RH             0.000000
+KitchenQual_TA          0.000000
+MSZoning_FV             0.000000
+Condition1_RRNn         0.000000
+Condition1_RRNe         0.000000
+Condition1_RRAn         0.000000
+Condition1_RRAe         0.000000
+Neighborhood_MeadowV    0.000000
+Condition1_Feedr        0.000000
+Condition1_Artery       0.000000
+Neighborhood_Veenker    0.000000
+MSZoning_C (all)        0.000000
+Neighborhood_Timber     0.000000
+GarageType_2Types       0.000000
+GarageType_Basment      0.000000
+Neighborhood_BrkSide    0.000000
+Neighborhood_BrDale     0.000000
+Neighborhood_Blueste    0.000000
+Neighborhood_Blmngtn    0.000000
+BsmtExposure_Mn         0.000000
+BsmtExposure_Av         0.000000
+LandSlope_Gtl           0.000000
+...                          ...
+CentralAir_Y            0.000429
+BsmtQual_Gd             0.000522
+KitchenAbvGr            0.000634
+BsmtExposure_No         0.000696
+LotShape_IR2            0.000733
+LotShape_IR1            0.000745
+LandSlope_Mod           0.000980
+KitchenQual_Gd          0.002518
+Neighborhood_Edwards    0.003071
+BsmtQual_TA             0.003482
+Neighborhood_NoRidge    0.003743
+Neighborhood_StoneBr    0.008845
+Condition1_PosN         0.009519
+LotArea                 0.011945
+1stFlrSF                0.012209
+BsmtQual_Ex             0.014126
+YearRemodAdd            0.017323
+YearBuilt               0.018346
+Condition1_Norm         0.021171
+GarageArea              0.021712
+BsmtFinSF1              0.028516
+LotFrontage             0.028838
+Fireplaces              0.033825
+KitchenQual_Ex          0.034204
+GarageCars              0.056018
+TotRmsAbvGrd            0.063980
+TotalBsmtSF             0.102902
+GrLivArea               0.108302
+2ndFlrSF                0.110908
+OverallQual             0.279220
+
+[87 rows x 1 columns] 
+
+
+2019-11-21 09:54:45 - task - INFO - Model name: 
+ GradientBoostingRegressor
+2019-11-21 09:54:45 - task - INFO - Model score: 
+ 0.9131611880217949
+2019-11-21 09:54:45 - task - INFO - Model path: 
+ ../result\GradientBoostingRegressor-0.913161188022.pkl
+2019-11-21 09:54:48 - task - INFO - Feature Importance Score: 
+                       Importance
+Feature                         
+LandSlope_Sev           0.000000
+KitchenQual_Fa          0.000000
+GarageType_2Types       0.000000
+Condition1_Feedr        0.000000
+Neighborhood_Sawyer     0.000000
+Condition1_PosN         0.000000
+Condition1_RRAe         0.000000
+Condition1_RRAn         0.000000
+Condition1_RRNe         0.000000
+Condition1_RRNn         0.000000
+LotShape_IR3            0.000000
+LotShape_IR2            0.000000
+Neighborhood_SawyerW    0.000000
+Neighborhood_NWAmes     0.000000
+Neighborhood_SWISU      0.000000
+Neighborhood_OldTown    0.000000
+MSZoning_RH             0.000000
+MasVnrType_missing      0.000000
+Neighborhood_NPkVill    0.000000
+GarageType_BuiltIn      0.000000
+Neighborhood_MeadowV    0.000000
+MasVnrType_Stone        0.000000
+GarageType_missing      0.000000
+Neighborhood_BrDale     0.000000
+Neighborhood_Blueste    0.000000
+Neighborhood_IDOTRR     0.000000
+BsmtQual_Fa             0.000000
+Neighborhood_Blmngtn    0.000000
+LandSlope_Gtl           0.000000
+LandSlope_Mod           0.000000
+...                          ...
+MSZoning_FV             0.004072
+BsmtExposure_No         0.004851
+Condition1_Artery       0.005309
+BsmtQual_Ex             0.005660
+MasVnrType_BrkCmn       0.005782
+Neighborhood_BrkSide    0.006304
+KitchenQual_Ex          0.009242
+TotRmsAbvGrd            0.012599
+Neighborhood_Somerst    0.013340
+Neighborhood_Edwards    0.013449
+KitchenAbvGr            0.013796
+Condition1_Norm         0.013885
+Neighborhood_Veenker    0.014198
+Fireplaces              0.014543
+BsmtExposure_Gd         0.014634
+GarageCars              0.015273
+Neighborhood_StoneBr    0.015305
+MSZoning_C (all)        0.017216
+Neighborhood_Crawfor    0.023962
+LotFrontage             0.033283
+2ndFlrSF                0.038001
+1stFlrSF                0.038930
+YearRemodAdd            0.039142
+BsmtFinSF1              0.059552
+YearBuilt               0.061750
+TotalBsmtSF             0.063524
+GarageArea              0.067730
+LotArea                 0.090058
+OverallQual             0.101572
+GrLivArea               0.148705
+
+[87 rows x 1 columns] 
+
+
+2019-11-21 09:54:49 - task - INFO - Model name: 
+ XGBRegressor
+2019-11-21 09:54:49 - task - INFO - Model score: 
+ -0.05993490870616491
+2019-11-21 09:54:49 - task - INFO - Model path: 
+ ../result\XGBRegressor--0.0599349087062.pkl
+2019-11-21 09:54:53 - task - INFO - Feature Importance Score: 
+                       Importance
+Feature                         
+LandSlope_Sev           0.000000
+Condition1_RRNn         0.000000
+Neighborhood_Timber     0.000000
+MSZoning_FV             0.000000
+Neighborhood_StoneBr    0.000000
+Condition1_RRNe         0.000000
+MSZoning_RH             0.000000
+Neighborhood_Somerst    0.000000
+LotShape_IR1            0.000000
+Neighborhood_Gilbert    0.000000
+Neighborhood_NridgHt    0.000000
+Neighborhood_NoRidge    0.000000
+GarageType_missing      0.000000
+CentralAir_Y            0.000000
+Neighborhood_Veenker    0.000000
+MasVnrType_BrkFace      0.000000
+BsmtQual_Gd             0.000000
+Neighborhood_Crawfor    0.000000
+Neighborhood_BrDale     0.000000
+Neighborhood_Blueste    0.000000
+Neighborhood_Blmngtn    0.000000
+BsmtExposure_No         0.000000
+Neighborhood_MeadowV    0.000000
+Neighborhood_NPkVill    0.000000
+LotShape_IR2            0.000000
+LandSlope_Mod           0.000000
+LandSlope_Gtl           0.000000
+MasVnrType_missing      0.000000
+MasVnrType_Stone        0.000000
+BsmtExposure_Av         0.000000
+...                          ...
+Neighborhood_IDOTRR     0.002115
+KitchenQual_TA          0.003264
+BsmtExposure_Gd         0.003509
+MSZoning_RL             0.004164
+Neighborhood_ClearCr    0.004267
+MSZoning_RM             0.005533
+Condition1_Norm         0.005802
+YearRemodAdd            0.006490
+YearBuilt               0.006494
+KitchenAbvGr            0.006758
+2ndFlrSF                0.007051
+LotFrontage             0.007496
+Fireplaces              0.009584
+LotArea                 0.010680
+KitchenQual_Ex          0.010797
+GarageType_Detchd       0.011379
+GarageArea              0.011733
+CentralAir_N            0.013817
+BsmtQual_TA             0.014853
+MasVnrType_None         0.015090
+GarageType_Attchd       0.016458
+BsmtFinSF1              0.016650
+TotalBsmtSF             0.020165
+KitchenQual_Gd          0.021495
+1stFlrSF                0.030832
+LotShape_Reg            0.032489
+TotRmsAbvGrd            0.033710
+GarageCars              0.040224
+GrLivArea               0.052415
+OverallQual             0.555026
+
+[87 rows x 1 columns] 
+
+
+2019-11-21 09:54:53 - task - INFO - Best model: 
+ GradientBoostingRegressor : 0.9131611880217949
+
+
+2019-11-21 10:15:34 - task - INFO - Model name: 
+ DecisionTreeRegressor
+2019-11-21 10:15:34 - task - INFO - Model score: 
+ 0.6889535625894222
+2019-11-21 10:15:34 - task - INFO - Model path: 
+ ../result\DecisionTreeRegressor-0.688953562589.pkl
+2019-11-21 10:15:37 - task - INFO - Feature Importance Score: 
+                         Importance
+Feature                           
+LandSlope_Sev         0.000000e+00
+GarageType_2Types     0.000000e+00
+GarageType_Basment    0.000000e+00
+GarageType_CarPort    0.000000e+00
+Condition1_RRNn       0.000000e+00
+Condition1_RRNe       0.000000e+00
+LotShape_IR3          0.000000e+00
+Neighborhood_MeadowV  0.000000e+00
+Condition1_PosN       0.000000e+00
+KitchenAbvGr          0.000000e+00
+Neighborhood_Blmngtn  0.000000e+00
+Neighborhood_Blueste  0.000000e+00
+Condition1_RRAe       0.000000e+00
+CentralAir_N          1.553452e-08
+Neighborhood_ClearCr  6.897241e-08
+KitchenQual_Fa        8.621551e-08
+Neighborhood_Somerst  2.593170e-07
+Neighborhood_BrkSide  2.816373e-07
+Neighborhood_Crawfor  5.905762e-07
+MSZoning_FV           3.364060e-06
+LotShape_IR2          5.172931e-06
+Neighborhood_NWAmes   6.745226e-06
+Neighborhood_NPkVill  7.285211e-06
+MasVnrType_missing    7.425664e-06
+Neighborhood_SawyerW  1.997522e-05
+Neighborhood_BrDale   2.080558e-05
+LandSlope_Mod         2.209416e-05
+Neighborhood_Mitchel  2.580143e-05
+Neighborhood_Gilbert  2.595223e-05
+Neighborhood_IDOTRR   2.712525e-05
+...                            ...
+KitchenQual_Ex        1.020555e-03
+Fireplaces            1.048974e-03
+BsmtExposure_Mn       1.099986e-03
+MSZoning_C (all)      1.112511e-03
+Neighborhood_Edwards  1.113117e-03
+BsmtExposure_No       1.219721e-03
+MasVnrType_Stone      1.373118e-03
+LotShape_Reg          1.374044e-03
+Neighborhood_Timber   1.447283e-03
+MasVnrType_BrkFace    1.500713e-03
+LotShape_IR1          1.627237e-03
+GarageType_Attchd     2.158786e-03
+TotRmsAbvGrd          2.208749e-03
+BsmtQual_TA           2.408977e-03
+MSZoning_RM           2.839744e-03
+Neighborhood_StoneBr  3.793212e-03
+BsmtQual_Gd           4.541016e-03
+KitchenQual_Gd        5.308090e-03
+YearRemodAdd          5.419267e-03
+CentralAir_Y          6.360721e-03
+LotFrontage           7.574696e-03
+LotArea               1.002361e-02
+1stFlrSF              1.258752e-02
+GarageArea            1.631262e-02
+2ndFlrSF              2.136086e-02
+YearBuilt             2.159930e-02
+TotalBsmtSF           3.403836e-02
+BsmtFinSF1            4.899648e-02
+GrLivArea             1.282877e-01
+OverallQual           6.434732e-01
+
+[87 rows x 1 columns] 
+
+
+2019-11-21 10:15:37 - task - INFO - Model name: 
+ RandomForestRegressor
+2019-11-21 10:15:37 - task - INFO - Model score: 
+ 0.8384345352275748
+2019-11-21 10:15:37 - task - INFO - Model path: 
+ ../result\RandomForestRegressor-0.838434535228.pkl
+2019-11-21 10:15:40 - task - INFO - Feature Importance Score: 
+                         Importance
+Feature                           
+Neighborhood_Blmngtn  0.000000e+00
+Condition1_RRNe       0.000000e+00
+Neighborhood_Blueste  1.438761e-09
+MasVnrType_missing    1.285293e-07
+GarageType_2Types     1.543281e-07
+Neighborhood_BrDale   2.511251e-07
+Neighborhood_NPkVill  1.425049e-06
+Neighborhood_MeadowV  2.240604e-06
+Condition1_PosN       8.910260e-06
+LotShape_IR3          1.666774e-05
+Neighborhood_SWISU    3.594633e-05
+GarageType_Basment    5.312223e-05
+LandSlope_Gtl         5.859636e-05
+Condition1_PosA       6.192651e-05
+Condition1_RRNn       6.505132e-05
+GarageType_CarPort    6.561990e-05
+Neighborhood_IDOTRR   6.720185e-05
+KitchenQual_Fa        7.053818e-05
+Neighborhood_Veenker  7.089164e-05
+GarageType_missing    7.497140e-05
+MSZoning_RH           8.308501e-05
+Condition1_RRAn       9.025084e-05
+Neighborhood_Gilbert  9.053124e-05
+Neighborhood_Somerst  1.033367e-04
+Condition1_Artery     1.134139e-04
+Neighborhood_NoRidge  1.209861e-04
+Neighborhood_Mitchel  1.250863e-04
+Neighborhood_NWAmes   1.371286e-04
+Condition1_Feedr      1.375882e-04
+MSZoning_FV           1.394644e-04
+...                            ...
+MasVnrType_BrkFace    1.092679e-03
+Neighborhood_NridgHt  1.161458e-03
+BsmtQual_TA           1.473505e-03
+KitchenAbvGr          1.524351e-03
+BsmtExposure_No       1.565134e-03
+MasVnrType_None       1.605852e-03
+KitchenQual_TA        1.621070e-03
+BsmtExposure_Gd       1.751521e-03
+LotShape_Reg          2.009264e-03
+BsmtQual_Gd           2.030055e-03
+CentralAir_Y          2.037164e-03
+GarageType_Attchd     2.512255e-03
+GarageType_Detchd     3.226212e-03
+KitchenQual_Ex        4.479905e-03
+Fireplaces            4.658974e-03
+KitchenQual_Gd        5.344333e-03
+2ndFlrSF              5.446437e-03
+BsmtQual_Ex           8.102700e-03
+LotFrontage           9.693928e-03
+YearRemodAdd          1.194562e-02
+YearBuilt             1.437565e-02
+1stFlrSF              1.712335e-02
+LotArea               1.726091e-02
+GarageArea            1.861536e-02
+TotRmsAbvGrd          1.898748e-02
+GarageCars            2.393488e-02
+BsmtFinSF1            3.153308e-02
+TotalBsmtSF           5.350385e-02
+GrLivArea             1.383081e-01
+OverallQual           5.791641e-01
+
+[87 rows x 1 columns] 
+
+
+2019-11-21 10:15:41 - task - INFO - Model name: 
+ AdaBoostRegressor
+2019-11-21 10:15:41 - task - INFO - Model score: 
+ 0.8154727211061753
+2019-11-21 10:15:41 - task - INFO - Model path: 
+ ../result\AdaBoostRegressor-0.815472721106.pkl
+2019-11-21 10:15:44 - task - INFO - Feature Importance Score: 
+                       Importance
+Feature                         
+LotShape_Reg            0.000000
+Neighborhood_Mitchel    0.000000
+CentralAir_Y            0.000000
+Neighborhood_NAmes      0.000000
+Condition1_Feedr        0.000000
+MSZoning_RL             0.000000
+MSZoning_RH             0.000000
+MSZoning_FV             0.000000
+MSZoning_C (all)        0.000000
+MasVnrType_BrkCmn       0.000000
+Condition1_RRNn         0.000000
+Condition1_RRAn         0.000000
+Condition1_RRAe         0.000000
+LotShape_IR1            0.000000
+Condition1_PosA         0.000000
+LotShape_IR3            0.000000
+BsmtQual_Fa             0.000000
+Condition1_Artery       0.000000
+Neighborhood_Veenker    0.000000
+Condition1_RRNe         0.000000
+Neighborhood_Timber     0.000000
+MasVnrType_BrkFace      0.000000
+MasVnrType_Stone        0.000000
+Neighborhood_IDOTRR     0.000000
+Neighborhood_Gilbert    0.000000
+GarageType_Basment      0.000000
+GarageType_BuiltIn      0.000000
+Neighborhood_CollgCr    0.000000
+Neighborhood_ClearCr    0.000000
+Neighborhood_BrkSide    0.000000
+...                          ...
+LotShape_IR2            0.000474
+Neighborhood_Crawfor    0.000497
+LandSlope_Gtl           0.000859
+GarageType_Attchd       0.001095
+BsmtExposure_Gd         0.001216
+KitchenQual_Gd          0.002528
+Neighborhood_NridgHt    0.003289
+Neighborhood_Edwards    0.003688
+BsmtExposure_No         0.005122
+BsmtQual_TA             0.005397
+Neighborhood_StoneBr    0.007811
+BsmtQual_Ex             0.013538
+Neighborhood_NoRidge    0.014044
+LotArea                 0.014382
+Condition1_PosN         0.018162
+YearBuilt               0.019423
+BsmtFinSF1              0.022301
+LotFrontage             0.022722
+Fireplaces              0.024799
+YearRemodAdd            0.024952
+1stFlrSF                0.029941
+Condition1_Norm         0.031937
+GarageArea              0.032793
+GarageCars              0.042116
+KitchenQual_Ex          0.051673
+TotRmsAbvGrd            0.060199
+GrLivArea               0.088022
+2ndFlrSF                0.096848
+TotalBsmtSF             0.110910
+OverallQual             0.248025
+
+[87 rows x 1 columns] 
+
+
+2019-11-21 10:15:45 - task - INFO - Model name: 
+ GradientBoostingRegressor
+2019-11-21 10:15:45 - task - INFO - Model score: 
+ 0.9152844073345827
+2019-11-21 10:15:45 - task - INFO - Model path: 
+ ../result\GradientBoostingRegressor-0.915284407335.pkl
+2019-11-21 10:15:48 - task - INFO - Feature Importance Score: 
+                       Importance
+Feature                         
+LandSlope_Sev           0.000000
+Neighborhood_Sawyer     0.000000
+GarageType_Basment      0.000000
+LotShape_IR1            0.000000
+Neighborhood_Timber     0.000000
+MSZoning_RH             0.000000
+LotShape_IR2            0.000000
+GarageType_CarPort      0.000000
+GarageType_2Types       0.000000
+Condition1_RRNn         0.000000
+Condition1_RRNe         0.000000
+KitchenQual_Fa          0.000000
+Condition1_RRAn         0.000000
+Neighborhood_SWISU      0.000000
+Condition1_RRAe         0.000000
+LotShape_IR3            0.000000
+Neighborhood_OldTown    0.000000
+Neighborhood_SawyerW    0.000000
+LandSlope_Gtl           0.000000
+Neighborhood_NWAmes     0.000000
+Neighborhood_NPkVill    0.000000
+Neighborhood_MeadowV    0.000000
+Neighborhood_IDOTRR     0.000000
+GarageType_BuiltIn      0.000000
+BsmtQual_Fa             0.000000
+BsmtQual_Gd             0.000000
+Neighborhood_BrDale     0.000000
+GarageType_missing      0.000000
+Neighborhood_Blmngtn    0.000000
+BsmtQual_TA             0.000000
+...                          ...
+MSZoning_FV             0.004072
+BsmtExposure_No         0.004814
+Condition1_Artery       0.005309
+BsmtQual_Ex             0.005660
+MasVnrType_BrkCmn       0.005782
+Neighborhood_BrkSide    0.006304
+KitchenQual_Ex          0.009242
+Neighborhood_Somerst    0.011604
+TotRmsAbvGrd            0.012223
+KitchenAbvGr            0.013538
+Condition1_Norm         0.013885
+Neighborhood_Veenker    0.014198
+Neighborhood_Edwards    0.015004
+Neighborhood_StoneBr    0.015305
+BsmtExposure_Gd         0.015639
+GarageCars              0.015743
+Fireplaces              0.015999
+MSZoning_C (all)        0.017216
+Neighborhood_Crawfor    0.023962
+LotFrontage             0.032305
+2ndFlrSF                0.033778
+1stFlrSF                0.035014
+YearRemodAdd            0.039623
+BsmtFinSF1              0.059229
+YearBuilt               0.061237
+TotalBsmtSF             0.064260
+GarageArea              0.065749
+LotArea                 0.097144
+OverallQual             0.101572
+GrLivArea               0.147548
+
+[87 rows x 1 columns] 
+
+
+2019-11-21 10:15:50 - task - INFO - Model name: 
+ XGBRegressor
+2019-11-21 10:15:50 - task - INFO - Model score: 
+ -0.05993490870616491
+2019-11-21 10:15:50 - task - INFO - Model path: 
+ ../result\XGBRegressor--0.0599349087062.pkl
+2019-11-21 10:15:54 - task - INFO - Feature Importance Score: 
+                       Importance
+Feature                         
+LandSlope_Sev           0.000000
+Condition1_RRNn         0.000000
+Neighborhood_Timber     0.000000
+MSZoning_FV             0.000000
+Neighborhood_StoneBr    0.000000
+Condition1_RRNe         0.000000
+MSZoning_RH             0.000000
+Neighborhood_Somerst    0.000000
+LotShape_IR1            0.000000
+Neighborhood_Gilbert    0.000000
+Neighborhood_NridgHt    0.000000
+Neighborhood_NoRidge    0.000000
+GarageType_missing      0.000000
+CentralAir_Y            0.000000
+Neighborhood_Veenker    0.000000
+MasVnrType_BrkFace      0.000000
+BsmtQual_Gd             0.000000
+Neighborhood_Crawfor    0.000000
+Neighborhood_BrDale     0.000000
+Neighborhood_Blueste    0.000000
+Neighborhood_Blmngtn    0.000000
+BsmtExposure_No         0.000000
+Neighborhood_MeadowV    0.000000
+Neighborhood_NPkVill    0.000000
+LotShape_IR2            0.000000
+LandSlope_Mod           0.000000
+LandSlope_Gtl           0.000000
+MasVnrType_missing      0.000000
+MasVnrType_Stone        0.000000
+BsmtExposure_Av         0.000000
+...                          ...
+Neighborhood_IDOTRR     0.002115
+KitchenQual_TA          0.003264
+BsmtExposure_Gd         0.003509
+MSZoning_RL             0.004164
+Neighborhood_ClearCr    0.004267
+MSZoning_RM             0.005533
+Condition1_Norm         0.005802
+YearRemodAdd            0.006490
+YearBuilt               0.006494
+KitchenAbvGr            0.006758
+2ndFlrSF                0.007051
+LotFrontage             0.007496
+Fireplaces              0.009584
+LotArea                 0.010680
+KitchenQual_Ex          0.010797
+GarageType_Detchd       0.011379
+GarageArea              0.011733
+CentralAir_N            0.013817
+BsmtQual_TA             0.014853
+MasVnrType_None         0.015090
+GarageType_Attchd       0.016458
+BsmtFinSF1              0.016650
+TotalBsmtSF             0.020165
+KitchenQual_Gd          0.021495
+1stFlrSF                0.030832
+LotShape_Reg            0.032489
+TotRmsAbvGrd            0.033710
+GarageCars              0.040224
+GrLivArea               0.052415
+OverallQual             0.555026
+
+[87 rows x 1 columns] 
+
+
+2019-11-21 10:15:54 - task - INFO - Best model: 
+ GradientBoostingRegressor : 0.9152844073345827
+
+
