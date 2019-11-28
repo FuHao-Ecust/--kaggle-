@@ -46,21 +46,6 @@ all_df
 
 all_df.drop(['MiscFeature','Alley','Fence','FireplaceQu'],axis=1)
 
-
-
-x_label = ['GrLivArea','OverallQual','2ndFlrSF','YearBuilt','1stFlrSF','Functional','TotalBsmtSF','Neighborhood',
-           'OverallCond','Exterior1st','SaleCondition','BsmtFinSF1','BsmtQual','MSZoning','KitchenQual',
-		   'BsmtExposure','Condition1','LotArea','GarageCars','HalfBath','Foundation','YearRemodAdd',
-		   'GarageArea','WoodDeckSF','Fireplaces','LotConfig','HeatingQC','MSSubClass','PoolArea','PavedDrive',
-		   'ExterCond','Exterior1st','MasVnrType','MoSold','GarageCond','FullBath',
-		   'ScreenPorch','ExterQual','GarageFinish','FireplaceQu','BedroomAbvGr','EnclosedPorch',
-		   'TotRmsAbvGrd','3SsnPorch','OpenPorchSF']
-		   
-all_df = all_df[x_label]
-
-
-
-
 all_dummies_df=pd.get_dummies(all_df)
 mean_col=all_dummies_df.mean()
 all_dummies_df.fillna(mean_col,inplace=True)
@@ -103,8 +88,6 @@ x_test = df_train_test
 y_test = df_train_test_y
 
 
-
-'''
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.neighbors import KNeighborsRegressor
@@ -218,18 +201,16 @@ logger.info("Best model: \n {} : {}\n\n".format(best_model, best_score))
 
 
 print(("Best model: \n  {}: {}\n".format(best_model, best_score)))
-'''
+
 
 def predict_result(clf,x_train,y_train,x_test):
     rf = clf.fit(x_train,y_train)
     preds = rf.predict(x_test)
-    result = pd.DataFrame({'Id':x_test['Id'],'SalePrice':preds})
+    result = pd.DataFrame({'SalePrice':preds})
     return result
     
 
-
-
-submission = predict_result(RandomForestRegressor(),x_train,y_train,df_test1)
+submission = predict_result(GradientBoostingRegressor(),x_train,y_train,df_test1)
 submission.to_csv('submission.csv',index=False)
 submission.head(5)
 
